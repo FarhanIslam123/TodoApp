@@ -6,6 +6,8 @@
   text-decoration: none;
   outline: none;
 }
+
+
 html{
   scroll-behavior: smooth;
 }
@@ -19,23 +21,27 @@ html{
   
 }
 .card{
-  background: #222;
+  background: #5D5D62;
   color: white;
   padding: 1rem;
   min-height: 50%;
   overflow: scroll;
   border-radius: 1rem;
+  max-height: 80%;
+  width: 80%;
 }
 .card-tittle{
   font-size: 2rem;
   text-align: center;
   margin-bottom:1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 input{
   border:none;
   border-radius: 0.6rem;
   padding: 0.5rem;
   width: 68%;
+  
 }
 .btn{
   border: none;
@@ -44,6 +50,7 @@ input{
   background-color: orange;
   transition: all 0.3s;
   cursor: pointer;
+ 
 }
 .btn:hover{
   background: white;
@@ -59,7 +66,7 @@ input{
   padding: 0.5rem;
   border-radius: 0.6rem;
   margin: 1rem 0;
-  transition: all 0.3s
+  transition: all 0.3s;
 }
 .li-style:hover{
   background-color: #111;
@@ -78,3 +85,4 @@ input{
   background: #ffdddd;
   border-left: 6px solid #f44336;
 }
+
